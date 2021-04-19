@@ -14,7 +14,9 @@
 }
 
 /* 애니메이션을 적용하기위해 key frame 규칙 사용*/
+
 @keyframes rotate {
+    /* 애니매이션 시작할때 css */
     0% {
         transform: translateY(0);
     }
@@ -27,9 +29,11 @@
     75% {
         transform: translateY(-60%);
     }
+    /* 애니메이션 끝날때 css */
     100% {
         transform: translateY(-80%);
     }
+    /* 숫자는 마음대로 조절 가능 */
 }
 
 html {
